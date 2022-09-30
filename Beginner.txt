@@ -560,6 +560,18 @@ Solution : 	# define a function for calculating
 
 21. Return first, middle & last element of array.
 Solution : 
+	#python
+	def func():
+		arr = [1,2,3,4,5]
+		ans = []
+		middle = arr[5//2]
+		ans.append(arr[0])
+		ans.append(arr[middle])
+		ans.append(arr[-1])
+		return ans
+	answer = []
+	answer = func()
+	print(answer)
 
 22. Largest subarray with 0 sum
 class GfG
